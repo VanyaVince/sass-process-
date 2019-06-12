@@ -1,0 +1,32 @@
+@import "variables";
+
+body {
+  background-color: $bc-color;
+}
+
+.block {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.block2 {
+  $bc-color-block: #768075;
+  width: 200px;
+  margin: 10px auto;
+  background-color: $bc-color-block;
+
+  h2{
+    font-size: $big-text;
+  }
+}
+
+.block3 {
+  width: 300px;
+  margin: 10px auto;
+  background-color: $bc-color-block;
+
+  h2{
+    font-size: $small-text;
+  }
+}
